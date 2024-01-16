@@ -80,6 +80,13 @@ body {
     padding: 20px;
 
 }
+.iframe1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 
 footer {
     width: 100%;
