@@ -9,8 +9,8 @@
 }
 
     
-*{
-    font-family: "inter"; sans-serif;
+* {
+    font-family: "inter"; 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,7 +19,33 @@
     text-decoration: none;
 
 }
-
+p {
+    text-align: justify;
+    text-indent: 3em;
+}
+#image1{
+    object-fit: cover;
+    width: 900px;
+    height: 200px;
+}
+#image2{
+    object-fit: cover;
+    width: 900px;
+    height: 200px;
+}
+#image3{
+    object-fit: cover;
+    width: 900px;
+    height: 200px;
+}
+#image4{
+    object-fit: cover;
+    width: 900px;
+    height: 200px;
+}
+.cab2{
+    text-align: center;
+}
 html, body {
     margin: 0;
     
@@ -45,7 +71,7 @@ body {
 
 }
 .menu {
-    
+    text-decoration: none;
     text-align: center;
     width: 15%;
     padding: 10px 20px 0px;
