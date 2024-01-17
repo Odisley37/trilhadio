@@ -84,11 +84,16 @@ body {
     width: 100%;
     min-height: 150px;
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     margin: 0;
     padding: 3rem 3.5rem;
     box-sizing: border-box;
+}
+#title1{
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: #a8a29e;
 }
 #nav{
     display: grid;
